@@ -25,3 +25,16 @@
 
 //     return recursion(0)
 // };
+
+
+// var climbStairs = function (n) {
+//     var stepOne = 1, stepTwo = 0, currCount = 0
+
+//     for (let i = 0; i < n; i++) {
+//         currCount = stepOne + stepTwo
+//         stepTwo = stepOne
+//         stepOne = currCount
+//     }
+
+//     return stepOne
+// }
