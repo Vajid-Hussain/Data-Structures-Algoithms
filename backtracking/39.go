@@ -26,3 +26,27 @@
 //     }
 //     index++
 // }
+
+// var combinationSum = function (candidates, target) {
+//     let result = new Array
+//     recursion(result, candidates, target, 0, [], 0)
+//     return result
+// };
+
+// function recursion(result, candidates, target, sum, curr, pos) {
+//     // console.log(result, candidates, target, sum, curr, pos)
+
+//     if (sum == target) {
+//         result.push([...curr])
+//         return
+//     }
+
+//     for (let i = pos; i < candidates.length; i++) {
+//         let currSum = sum + candidates[i]
+//         if (currSum > target) continue
+
+//         curr.push(candidates[i])
+//         recursion(result, candidates, target, sum + candidates[i], curr, i)
+//         curr.pop()
+//     }
+// }
