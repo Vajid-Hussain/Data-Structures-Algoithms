@@ -47,3 +47,30 @@
 
 //     return result
 // }
+
+
+
+/// --------
+// func subsets(nums []int) [][]int {
+// 	var result [][]int
+//     recursion(nums, []int{} ,0, &result)
+//     return result
+// }
+
+// func recursion(arr, curr []int, pos int, result *[][]int) {
+// 	if pos == len(arr) -1 {
+//         combination := make([]int, len(curr))
+//         copy(combination, curr)
+       
+//         curr = append(curr, arr[pos])
+
+//         combination2 := make([]int, len(curr))
+//         copy(combination2, curr)
+
+// 		*result = append(*result, combination, combination2)
+//         return
+// 	}
+
+// 	recursion(arr, append(curr[:], arr[pos]), pos+1, result)
+// 	recursion(arr, curr[:], pos+1, result)
+// }
